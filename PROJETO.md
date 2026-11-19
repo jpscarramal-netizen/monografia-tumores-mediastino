@@ -35,10 +35,6 @@ disciplina (ABNT, TNR 12, espaçamento 1,5; detalhes no `PLANO.md`, seção 0).
 | Quadro 1 com 11 estudos; Kamel 2019 e Fang 2017 excluídos | texto completo bloqueado (Cloudflare OUP); regra: nada sem texto completo | 19/11 |
 | ESMO 2015 e Dimmers 2026 não usados | texto completo bloqueado | 19/11 |
 
-**Recorte proposto, aguardando confirmação do grupo:** tumores do mediastino ANTERIOR
-(principalmente tumores epiteliais tímicos), comparando esternotomia x VATS x RATS. Ver
-`PLANO.md`, seção 2, para as alternativas.
-
 ## Pendências
 
 1. [ ] Grupo colocar os nomes na capa, folha de rosto e folha de aprovação (`AUTORES` em `trabalho/scripts/conteudo.py`)
