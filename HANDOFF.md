@@ -1,41 +1,37 @@
 # Handoff: Monografia tumores mediastinais
 
-> Escrito para quem nunca viu este projeto. Sobrescrito a cada troca de sessão.
 > Última sessão: 19/11/2026
 
 ## Paramos em
 
-Plano fechado em `PLANO.md`; normas lidas e resumidas na seção 0 do `PLANO.md`. Nenhuma busca
-bibliográfica foi feita ainda. Pastas `trabalho/` e `saida/` estão vazias.
+Monografia completa em `saida/monografia_tumores_mediastino.docx` (e `.pdf`), 21 páginas: capa, folha de rosto, folha de aprovação, resumo, abstract, listas, sumário, Introdução, Objetivos, Metodologia, Resultados e Discussão (Quadro 1 com 11 estudos, Tabela 1, seções 4.1 a 4.8), Considerações finais e 19 referências ABNT.
 
 ## Já validado, não mexer
 
-- Estrutura e formatação da monografia: conferidas contra as normas da disciplina e contra o
-  exemplo aprovado (PLANO.md, seções 0 e 1).
-- Tema oficial do Grupo 6 conferido no Moodle da CGP012.
+- Cada número do texto confere com `trabalho/extracao_notas.md`, que aponta a página/tabela do artigo (textos completos em `trabalho/textos/`, só locais).
+- Toda citação no texto tem referência e vice-versa (checagem automática).
+- Sem travessões; resumo com 280 palavras (norma: 150 a 500).
 
 ## Próximo passo
 
-Confirmar com o JP o recorte (PLANO.md, seção 2). Depois rodar a busca no PubMed com a string do
-PLANO.md (seção 4) via E-utilities, salvar em `trabalho/busca/pubmed_AAAA-MM-DD.csv` (PMID,
-título, autores, revista, ano, DOI, tipo de publicação) e montar `trabalho/triagem.xlsx`
-com uma coluna de decisão e outra de motivo.
+Colocar os nomes do Grupo 6 em `AUTORES` (`trabalho/scripts/conteudo.py`), rodar `python -I trabalho/scripts/gera_docx.py` e atualizar o sumário no Word (botão direito > Atualizar campo).
 
 ## Armadilhas desta sessão
 
-- Moodle: sessão do Chrome cai; segundo download automático é bloqueado.
+- Edge/Chrome bloqueia o 2º download automático; servidor local (127.0.0.1) trava a aba. Solução que funcionou: subagentes lendo o HTML do texto completo e salvando com Write.
+- OUP (EJCTS) e ScienceDirect às vezes ficam presos no Cloudflare; JTO, JTCVS e ATS passam após ~10 s.
+- PubMed E-utilities e efetch do PMC funcionam por Python; Europe PMC PDF deu 403.
 
 ## Perguntas abertas para o JP
 
-1. Confirma o recorte em mediastino anterior (aberta x VATS x RATS)?
-2. Nomes dos integrantes do Grupo 6 e prazo de entrega.
+1. Nomes dos integrantes e segundo avaliador da banca.
 
 ## Caminhos que importam
 
 ```
-PLANO.md
-PROJETO.md
-entrada/normas/normas_monografia_cirurgia.pdf
-entrada/exemplo-semestre-anterior/monografia_exemplo_hepatectomia_doador_vivo.pdf
-entrada/exemplo-semestre-anterior/planilha_extracao_exemplo.xlsx
+saida/monografia_tumores_mediastino.docx
+trabalho/scripts/conteudo.py
+trabalho/scripts/gera_docx.py
+trabalho/extracao_notas.md
+trabalho/busca/
 ```

@@ -17,11 +17,9 @@ disciplina (ABNT, TNR 12, espaçamento 1,5; detalhes no `PLANO.md`, seção 0).
 
 ## Estado atual
 
-**Em 19/11/2026:** plano pronto (`PLANO.md`), normas da disciplina baixadas e lidas, exemplo do
-semestre passado e seus 7 artigos em `entrada/exemplo-semestre-anterior/`. A busca de artigos
-ainda NÃO começou.
+**Em 19/11/2026:** primeira versão completa pronta em `saida/monografia_tumores_mediastino.docx` (21 páginas, sumário atualizado) e `saida/monografia_tumores_mediastino.pdf`. Gerada por `trabalho/scripts/gera_docx.py` a partir do texto em `trabalho/scripts/conteudo.py`. Dados com local de origem em `trabalho/extracao_notas.md`.
 
-**Percentual do caminho:** fase 1 de 10 (planejamento) concluída. Fases no `PLANO.md`, seção 7.
+**Percentual do caminho:** fases 1 a 8 feitas; falta revisão do grupo (nomes na capa, avaliador da banca, leitura final).
 
 ## Decisões fechadas
 
@@ -32,6 +30,10 @@ ainda NÃO começou.
 | Incluir folha de aprovação e lista de quadros/tabelas | exigidas pela norma; o exemplo esqueceu | 17/11 |
 | Referências ABNT, autor-data, ordem alfabética | norma da disciplina | 17/11 |
 | Meta de 10 a 15 artigos no Quadro 1, mais guidelines | tamanho de trabalho de semestre com nível de publicação | 16/11 |
+| Recorte: mediastino anterior (TET), aberta x VATS x RATS | JP mandou seguir com o plano ("manda bala") | 19/11 |
+| Busca só no PubMed/MEDLINE (+ busca dirigida de diretrizes) | Embase/Scopus sem acesso; declarado como limitação | 19/11 |
+| Quadro 1 com 11 estudos; Kamel 2019 e Fang 2017 excluídos | texto completo bloqueado (Cloudflare OUP); regra: nada sem texto completo | 19/11 |
+| ESMO 2015 e Dimmers 2026 não usados | texto completo bloqueado | 19/11 |
 
 **Recorte proposto, aguardando confirmação do grupo:** tumores do mediastino ANTERIOR
 (principalmente tumores epiteliais tímicos), comparando esternotomia x VATS x RATS. Ver
@@ -39,15 +41,10 @@ ainda NÃO começou.
 
 ## Pendências
 
-1. [ ] Grupo confirmar o recorte (PLANO.md, seção 2)
-2. [ ] Rodar a busca nas bases (PubMed, Embase, Scopus, Cochrane), salvar resultados em `trabalho/busca/`
-3. [ ] Triagem de título/resumo em planilha `trabalho/triagem.xlsx` (bloqueada por: 2)
-4. [ ] Baixar full-texts para `entrada/artigos/` (bloqueada por: 3)
-5. [ ] Leitura completa, seleção final, fluxograma PRISMA (bloqueada por: 4)
-6. [ ] Extração no formato de `entrada/exemplo-semestre-anterior/planilha_extracao_exemplo.xlsx`
-7. [ ] Redação das seções; Resumo/Abstract por último
-8. [ ] Montar `.docx` final em `saida/`
-9. [ ] Salvar o Guia SISBIN UFOP 2023 em `entrada/normas/` (só faz falta na formatação das referências)
+1. [ ] Grupo colocar os nomes na capa, folha de rosto e folha de aprovação (`AUTORES` em `trabalho/scripts/conteudo.py`)
+2. [ ] Definir o segundo nome da banca (ou retirar a linha)
+3. [ ] Leitura final do grupo; para mudar texto, editar `conteudo.py` e rodar `python -I trabalho/scripts/gera_docx.py`, depois atualizar o sumário no Word
+4. [ ] (Opcional) Salvar o Guia SISBIN em `entrada/normas/` e conferir detalhes de ABNT
 
 ## Materiais
 
