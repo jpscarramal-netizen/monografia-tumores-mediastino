@@ -100,3 +100,15 @@ Fonte dos textos: `trabalho/textos/` (local, fora do git). PDFs em `entrada/arti
 ### Fang 2026, J Thorac Oncol 21(1):102-111 (PMID 41016430) | padrões ITMIG
 - Cirurgia é o tratamento predominante; objetivo = ressecção completa; via minimamente invasiva (VATS e RATS) "is reasonable", evitando ruptura tecidual e retirando a peça em bolsa (seção Surgery).
 - Seguimento: timoma pI R0 com imagem anual; pII-IV e carcinoma com TC semestral nos 3 primeiros anos (Tabela 1).
+
+### Ahmed 2025, J Robot Surg 19(1):421 (DOI 10.1007/s11701-025-02601-0) | MA de estudos pareados, RATS x aberta (identificado no WoS)
+- Egito/Emirados (Ain Shams University; Dubai Hospital) (p.1).
+- 10 estudos com pareamento por propensão, 1729 pacientes: aberta 919 (53,2%), RATS 810 (46,8%) (abstract).
+- Sem diferença: tempo cirúrgico, dor, UTI, complicações gerais, mortalidade 30 e 90 d, readmissão, recorrência, mortalidade global (abstract).
+- RATS: menor sangramento, MD 185,24 mL (IC95% 58,08-312,39); drenagem 1,52 d menor (IC95% 1,43-1,60); complicações maiores RR 2,01 (IC95% 1,18-3,42) contra a aberta; internação 2,31 d menor (IC95% 1,87-2,75); menos radioterapia adjuvante RR 1,63 (IC95% 1,09-2,44) (abstract).
+- Margem positiva: 5 estudos, aberta 71/541 x RATS 73/432, diferença de risco 0,01 (IC95% -0,04 a 0,05) (p.3, "Positive resection margin").
+- Qualidade pela Newcastle-Ottawa; RevMan, efeitos aleatórios (Methods).
+
+## Excluídos na leitura do texto completo (busca nas 3 bases)
+- Seo 2022, Ann Thorac Surg 113(1):230-236 (DOI 10.1016/j.athoracsur.2021.02.003): National Inpatient Sample 2008-2014, 23.087 timectomias; indicações misturam miastenia gravis, timoma e outros tumores, sem resultados separados para tumor (Methods, "Characteristics") -> população fora do critério.
+- Kamel 2019 e Fang 2017 (EJCTS): texto completo indisponível (bloqueio de acesso).
