@@ -4,23 +4,24 @@
 
 ## Paramos em
 
-Monografia completa em `saida/monografia_tumores_mediastino.docx` (e `.pdf`), 21 páginas: capa, folha de rosto, folha de aprovação, resumo, abstract, listas, sumário, Introdução, Objetivos, Metodologia, Resultados e Discussão (Quadro 1 com 11 estudos, Tabela 1, seções 4.1 a 4.8), Considerações finais e 19 referências ABNT.
+Versão 2 completa em `saida/monografia_tumores_mediastino.docx` (e `.pdf`, 34 páginas): pré-texto da norma (capa, rosto, aprovação, resumo e abstract estruturados, listas, sumário) + corpo no formato do paper-modelo (1 Introdução, 2 Métodos, 3 Resultados com Figura 1 PRISMA, Quadro 1 e Tabela 1, 4 Discussão com Limitações, 5 Conclusão) e 49 referências ABNT.
 
 ## Já validado, não mexer
 
-- Cada número do texto confere com `trabalho/extracao_notas.md`, que aponta a página/tabela do artigo (textos completos em `trabalho/textos/`, só locais).
-- Toda citação no texto tem referência e vice-versa (checagem automática).
-- Sem travessões; resumo com 280 palavras (norma: 150 a 500).
+- PRISMA: `trabalho/prisma_numeros.md` (1.467 identificados, 755 duplicatas, 712 triados, 50 texto completo, 40 incluídos).
+- Cada número das seções foi conferido contra `trabalho/extracao/*.md` e `trabalho/extracao_notas.md`.
+- Citações x referências conferidas; sem travessões.
 
 ## Próximo passo
 
-Colocar os nomes do Grupo 6 em `AUTORES` (`trabalho/scripts/conteudo.py`), rodar `python -I trabalho/scripts/gera_docx.py` e atualizar o sumário no Word (botão direito > Atualizar campo).
+Nomes do Grupo 6 em `AUTORES` (`trabalho/scripts/gera_docx_v2.py`), rodar `python -I trabalho/scripts/gera_docx_v2.py` e atualizar o sumário no Word.
 
 ## Armadilhas desta sessão
 
-- Edge/Chrome bloqueia o 2º download automático; servidor local (127.0.0.1) trava a aba. Solução que funcionou: subagentes lendo o HTML do texto completo e salvando com Write.
-- OUP (EJCTS) e ScienceDirect às vezes ficam presos no Cloudflare; JTO, JTCVS e ATS passam após ~10 s.
-- PubMed E-utilities e efetch do PMC funcionam por Python; Europe PMC PDF deu 403.
+- O primeiro CSV do PubMed tinha DOIs de referências (bug do parser); corrigido em `pubmed_search.py` e busca refeita.
+- Scopus: exportação exige login; resumos vieram pela API interna da página (`/api/documents/search`, `showAbstract: true`).
+- WoS: exportar com "Full Record" para vir o resumo.
+- Agentes de navegador travam em SAGE e às vezes em OUP; limitar tentativas.
 
 ## Perguntas abertas para o JP
 
@@ -30,8 +31,8 @@ Colocar os nomes do Grupo 6 em `AUTORES` (`trabalho/scripts/conteudo.py`), rodar
 
 ```
 saida/monografia_tumores_mediastino.docx
-trabalho/scripts/conteudo.py
-trabalho/scripts/gera_docx.py
-trabalho/extracao_notas.md
+trabalho/secoes/
+trabalho/extracao/
 trabalho/busca/
+trabalho/scripts/gera_docx_v2.py
 ```

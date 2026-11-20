@@ -1,0 +1,41 @@
+﻿autor_ano,comparacao,r0_margem,perioperatorio,oncologico
+"Friedant et al., 2016",MIS x aberta,"R0 OR 0,82 (0,38 a 1,73)","Conversão 2,36%; perda sanguínea SMD -0,78; tempo SMD 0,13; complicações OR 0,90; internação 8 x 9 dias","Recorrência locorregional IRR 1,57 (0,47 a 5,26)"
+"Yang et al., 2016",VATS x aberta,NR,"Perda sanguínea WMD -119,15 mL; tempo WMD 8,57 min; complicações OR 0,55; internação WMD -3,20 dias","SG 5 anos OR 0,44 (0,15 a 1,30); SLD OR 0,46 (0,20 a 1,08)"
+"Rusidanmu et al., 2020",VATS x esternotomia,"R0 94,4% x 96,9%; OR 0,35 (0,12 a 1,04)","Perda sanguínea SMD -1,02; tempo SMD -0,37; complicações OR 0,60; internação SMD -1,03","Recorrência OR 0,81 (0,35 a 1,85)"
+"Lv et al., 2021",VATS x aberta,NR,"Complicações OR 0,19 (0,11 a 0,34); demais efeitos relatados como OR","Recorrência OR 0,69 (0,32 a 1,48)"
+"Wu et al., 2021",RATS x VATS,NR,"Conversão OR 0,24; perda sanguínea WMD -16,88 mL; tempo WMD 14,22 min; complicações OR 1,29; internação WMD -0,74 dia","Recorrência OR 0,19 (0,03 a 1,20)"
+"Shen et al., 2022",RATS x VATS,NR,"Perda sanguínea WMD -24,28 mL; tempo WMD 12,14 min; complicações OR 0,53; internação WMD -1,07 dia",NR
+"Falkson et al., 2023",MIS x aberta,NR,"Perda sanguínea MD -109,01 mL; complicações RR 0,53 (0,36 a 0,79); internação MD -2,86 dias","SG HR 0,61 (0,43 a 0,85); SLD HR 1,06 (0,58 a 1,92); recorrência RR 0,58 (0,31 a 1,08)"
+"Ahmed et al., 2025",RATS x aberta,"Margem positiva 16,9% x 13,1% (RATS x aberta); DR 0,01","Perda sanguínea MD 185,24 mL; tempo MD 2,36 min; complicações maiores RR 2,01; internação MD 2,31 dias; mortalidade 90 dias RR 0,91","Recorrência 1,4% x 0,7%; DR -0,01"
+"La et al., 2025",RATS x VATS e RATS x aberta,NR,"RATS x VATS: perda sanguínea MD -25,01 mL; tempo MD 4,49; internação MD -0,28 dia. RATS x aberta: internação MD -1,38 dia",NR
+"Liang et al., 2026",MIS x aberta,NR,"Perda sanguínea WMD 110,43 mL (aberta maior); tempo WMD 18,65 min; complicações OR 0,27; internação WMD 2,04 dias (aberta maior)","Recorrência OR 0,54 (0,35 a 0,84)"
+"Shen et al., 2026",RATS x VATS,"R0 OR 1,65 (1,12 a 2,42)","Conversão OR 0,34; perda sanguínea MD -6,50 mL; tempo MD -7,13 min; complicações OR 0,53; internação MD -0,77 dia; mortalidade 30 dias OR 0,37; custo MD 0,45",NR
+"Yu et al., 2026",RATS x VATS,NR,"Conversão OR 0,32; perda sanguínea -27,42; tempo 1,62; complicações OR 0,89; internação -1,52; mortalidade OR 0,64",NR
+"Wang et al., 2016",VATS x aberta,"R0 98,8% x 88,7%","Mortalidade 30 dias 0% x 0,34%","Recorrência 2,9% x 16,0%; SG 5 anos 92% x 92%; SLD 5 anos 92% x 83%"
+"Agatsuma et al., 2017",VATS x esternotomia (PSM),"Margem positiva 2,1% x 0,7%","Complicações 5,7% na VATS (p = 0,25)","SLR 5 anos 93,8% (p = 0,91); SG 5 anos 97,9% (p = 0,74)"
+"Burt et al., 2017",MIS x aberta,R0 94% x 86%; após PSM 96% x 96%,NR,NR
+"Fang et al., 2017",VATS/RATS x esternotomia,NR,NR,"SG HR 0,301 (0,064 a 1,426); recorrência HR 0,375 (0,071 a 1,974)"
+"Gu et al., 2018",VATS x aberta (PSM),R0 100% x 100%,NR,"Recorrência 1,0% x 3,8%; SG 5 anos 85,7% x 93,1%; SLD 5 anos 92,5% x 91,9%"
+"Burt et al., 2019",MIS x aberta,"R0 83,4% x 79,4%; margem positiva OR 0,73 (0,49 a 1,09)","Conversão 2,6%; internação -1,03 dia",NR
+"Kamel et al., 2019",RATS x VATS e RATS x aberta (PSM),Margem positiva RATS x VATS 28% x 23%; RATS x aberta 27% x 21%,"Conversão RATS x VATS 6% x 12%; internação RATS x aberta 4 x 5 dias; mortalidade 90 dias 0,5% x 1%",SG 5 anos RATS x VATS 93% x 94%; RATS x aberta 91% x 80%
+"Jeon et al., 2020",Esternotomia x VATS x toracotomia,R0 81% / 97% / 70%,"Perda sanguínea 350 / 135 / 825 mL; tempo 235 / 147 / 356 min; complicações 27,8% / 9,1% / 0%; internação 9 / 4 / 7 dias","SG 5 anos 100% / 100% / 87,5%; SLR 5 anos 55,4% / 67,9% / 32,8%"
+"Yang et al., 2020",MIS x aberta (PSM),"Margem positiva p = 0,84","Internação 3 x 4 dias; mortalidade 30 dias p = 0,60","Sobrevida 5 anos 89,4% x 81,6% (p = 0,20)"
+"Salfity et al., 2021",Aberta x VATS x RATS,"R0 64,7% / 63,1% / 71,4%","Conversão VATS 13,4% x RATS 5,0%; internação 4 / 3 / 2 dias; mortalidade 30 dias 0,7% / 1,1% / 0,6%",NR
+"Alvarado et al., 2022",RATS x VATS,"Margem positiva 24,3% x 31,6%; OR 0,59","Conversão 4,9% x 14,7%; internação 3,8 x 4,3 dias; mortalidade 90 dias 1,0% x 2,3%","SG HR 0,89 (p = 0,689)"
+"Holleran et al., 2022",Esternotomia x VATS (câncer tímico),NR,"Tempo 2,75 x 3,01 h; complicações 18,1% x 14,3%; internação 5 x 2,5 dias","SG 5 anos 74,6% x 71,3%"
+"Hurd et al., 2022","MIS x aberta (PSM, carcinoma tímico)","Margem positiva p = 0,39","Internação 3 x 4,5 dias","Sobrevida 5 anos 78,6% x 54,6% (p = 0,15)"
+"Hwang et al., 2022",MIS x aberta (PSM),"R0 97,35% x 97,35%","Tempo, internação e complicações menores na MIS (p < 0,005)","SG 10 anos 85,5% x 87,7%; SLR 86,4% x 94,0%"
+"Raja et al., 2022",MIS x aberta (timoma),NR,"Complicações VATS 3,7% e RATS 9,7% x 16,9%; OR 0,60; conversão 4,18%; internação 2,1 e 3,3 x 6,0 dias",NR
+"Inoue et al., 2023","MIS x aberta (PSM, timoma ≥5 cm)",NR,"Perda sanguínea 10 x 100 mL; tempo 139 x 158 min; complicações 0,8% x 1,6%; internação 5 x 8 dias; mortalidade 30 dias 0,2% x 0,2%",NR
+"Patel et al., 2024",RATS x VATS (PSM),"R0 98,3% x 94,7%; ressecção incompleta OR 0,203","Perda sanguínea -23,6 mL; internação -0,51 dia; conversão OR 0,671",NR (sem diferença declarada em SG e SLD)
+"Sicolo et al., 2024",RATS x aberta,"R0 98,0% x 97,3%","Tempo 146 x 110 min; complicações 14,6% x 20%; internação 5,5 x 7,5 dias; conversão 2,9%","Recorrência 2,9% x 5,5%; SG 5 anos 87% x 86%"
+"Al-Thani et al., 2024",RATS x aberta (timoma ≥5 cm),NR,"Internação 2 x 4 dias (PSM); mortalidade 30 dias 1,2% x 0,7%; 90 dias 1,2% x 1,2%","SG 5 anos 90% x 88% (PSM); HR 0,721 (0,424 a 1,226)"
+"Manyak et al., 2024","MIS x aberta (PSM, 4 a 13,5 cm)","Margem positiva 28,3% x 23,2%","Internação 3 x 4 dias; mortalidade 90 dias 1,0% x 1,3%","Mortalidade HR 0,88 (0,63 a 1,24)"
+"Huang et al., 2025",RATS x VATS (PSM),NR,"Conversão 0% x 0,85%; complicações 9,17% x 14,53%; internação 3,0 x 3,0 dias",NR
+"Nachira et al., 2025","RATS x aberta (PSM, timoma ≥5 cm)","R0 92,0% x 98,0%","Conversão 4,0%; complicações maiores 0% x 2,0%; internação 4,24 x 5,82 dias; mortalidade 30 dias 0 x 0",SG 5 anos 95% x 85%; SLD 5 anos 86% x 93% (não pareado)
+"Yang et al., 2025",RATS x aberta (timoma >4 cm),"R0 68,3% x 66,0%","Mortalidade 30 dias 1,2% x 0,9%; 90 dias 1,5% x 1,6%","HR 0,32 (0,11 a 0,88) em 4 a 5 cm, favorável à RATS segundo os autores"
+"Sakowitz et al., 2026",Aberta x VATS x RATS,"R0 77% / 81% / 84%; RATS até 4 cm AOR 1,78",Conversão VATS 9% x RATS 3%,SG 5 anos 86% / 91% / 92%; 10 anos 69% / 69% / 81%
+"Chen et al., 2019",VATS x aberta (Masaoka III),R0 100% x 100%,"Internação 11,0 x 13,3 dias",Sem recorrência (seguimento 8 e 15 meses)
+"Gu et al., 2023","MIS x esternotomia (PSM, T2-T3)",R0 100%,"Conversão 13,8%; perda sanguínea 117,5 x 230,0 mL; tempo 137,6 x 131,0 min; complicações 5,0% x 22,5%; internação 4,5 x 9,6 dias","Liberdade de recorrência 5 anos 78,2% x 78,5%"
+"Yang et al., 2024",VATS subxifoide x esternotomia (PSM),"R0 98,6% x 98,6%","Perda sanguínea 40 x 100 mL; tempo 98 x 129 min; complicações 5,6% x 23,6%; internação 5 x 6 dias; conversão 4,7%","Recorrência 13,9% x 15,3%; SG 5 anos 98,6% x 95,3%"
+"Zhang et al., 2025",RATS x esternotomia,"R1 32,0% x 55,0%","Conversão 15,0%; tempo 294 x 201 min; complicações 20,0% x 42,9%; mortalidade 90 dias 0 x 0","Recorrência 15,0% x 38,1%"

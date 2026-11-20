@@ -17,22 +17,25 @@ disciplina (ABNT, TNR 12, espaçamento 1,5; detalhes no `PLANO.md`, seção 0).
 
 ## Estado atual
 
-**Em 19/11/2026:** primeira versão completa pronta em `saida/monografia_tumores_mediastino.docx` (21 páginas, sumário atualizado) e `saida/monografia_tumores_mediastino.pdf`. Gerada por `trabalho/scripts/gera_docx.py` a partir do texto em `trabalho/scripts/conteudo.py`. Dados com local de origem em `trabalho/extracao_notas.md`.
+**Em 19/11/2026 (v2):** monografia refeita no formato do paper-modelo do JP (Scarramal et al., Neurosurgery 2026), como revisão sistemática com síntese narrativa: `saida/monografia_tumores_mediastino.docx` e `.pdf` (34 páginas). Busca em PubMed, Scopus e Web of Science; 40 estudos incluídos. Gerada por `trabalho/scripts/gera_docx_v2.py` a partir de `trabalho/secoes/*.md` e `*.csv`. Extração por estudo em `trabalho/extracao/`.
 
-**Percentual do caminho:** fases 1 a 8 feitas; falta revisão do grupo (nomes na capa, avaliador da banca, leitura final).
+**Percentual do caminho:** texto completo; falta revisão do grupo (nomes na capa, segundo avaliador, leitura final).
 
 ## Decisões fechadas
 
 | Decisão | Motivo | Data |
 |---|---|---|
-| Desenho: revisão integrativa relatada pelo PRISMA 2020 | mesmo desenho do exemplo aprovado, com rigor de publicação | 16/11 |
+| Desenho: revisão sistemática com síntese narrativa (PRISMA 2020), sem metanálise própria | JP pediu o formato do paper de MA dele, só a escrita; sobreposição de pacientes entre registros impede pooling | 19/11 |
 | Formato e seções seguem o exemplo do semestre passado + normas da disciplina | exemplo já aprovado pelo professor | 16/11 |
 | Incluir folha de aprovação e lista de quadros/tabelas | exigidas pela norma; o exemplo esqueceu | 17/11 |
 | Referências ABNT, autor-data, ordem alfabética | norma da disciplina | 17/11 |
 | Meta de 10 a 15 artigos no Quadro 1, mais guidelines | tamanho de trabalho de semestre com nível de publicação | 16/11 |
 | Recorte: mediastino anterior (TET), aberta x VATS x RATS | JP mandou seguir com o plano ("manda bala") | 19/11 |
-| Busca só no PubMed/MEDLINE (+ busca dirigida de diretrizes) | Embase/Scopus sem acesso; declarado como limitação | 19/11 |
-| Quadro 1 com 11 estudos; Kamel 2019 e Fang 2017 excluídos | texto completo bloqueado (Cloudflare OUP); regra: nada sem texto completo | 19/11 |
+| Busca em PubMed, Scopus e Web of Science (19/11/2026) | pedido do JP; WoS exportado com resumo; Scopus via página (exportação exige login) | 19/11 |
+| Formato idêntico ao paper-modelo (stent retriever longo x curto, Neurosurgery 2026), em português | pedido do JP; norma aceita formato de artigo | 19/11 |
+| Seções escritas por agentes com as skills escrever-introducao, escrever-methods-results, discussao, escrever-abstract | pedido do JP ("autores serão os agentes" = agentes escrevem) | 19/11 |
+| Triagem uniforme nas 3 bases: MA, registro multicêntrico/nacional, ECR; unicêntrico só em doença avançada | consistência entre bases | 19/11 |
+| Todos os elegíveis lidos no texto completo (50), 40 incluídos | JP pediu o trabalho mais completo | 19/11 |
 | ESMO 2015 e Dimmers 2026 não usados | texto completo bloqueado | 19/11 |
 
 ## Pendências

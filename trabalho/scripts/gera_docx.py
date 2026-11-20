@@ -145,7 +145,9 @@ def repeat_header(table):
 
 
 def caption(doc, text):
-    return para(doc, text, align=WD_ALIGN_PARAGRAPH.CENTER, bold=True, indent=False, spacing=1.0, after=6, size=12)
+    p = para(doc, text, align=WD_ALIGN_PARAGRAPH.CENTER, bold=True, indent=False, spacing=1.0, after=6, size=12)
+    p.paragraph_format.keep_with_next = True
+    return p
 
 
 def source(doc, text):
